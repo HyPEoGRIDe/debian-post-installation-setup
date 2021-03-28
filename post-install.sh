@@ -17,4 +17,4 @@ echo "alias sysupg='sudo aptitude update && sudo aptitude full-upgrade'" >> ~/.b
 
 #test 1
 
-sudo aptitude install neofetch htop git
+sudo aptitude install neofetch htop
