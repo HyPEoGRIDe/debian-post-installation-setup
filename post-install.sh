@@ -15,6 +15,6 @@ echo "alias pkgupd='sudo aptitude update'" >> ~/.bashrc
 echo "alias pkgse='aptitude search'" >> ~/.bashrc
 echo "alias sysupg='sudo aptitude update && sudo aptitude full-upgrade'" >> ~/.bashrc
 
-#test 1
+exec bash
 
-sudo aptitude install neofetch htop
+pkgin neofetch htop
